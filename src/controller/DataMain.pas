@@ -103,7 +103,8 @@ begin
         EtiquetanomeProduto.AsString + '#' +
         Etiquetagrupo.AsString + '#' +
         EtiquetalocalArmazenamento.AsString + '#' +
-        Etiquetaresponsavel.AsString;
+        Etiquetaresponsavel.AsString + '#' +
+        EtiquetadataEntrada.AsString;
 
       Etiqueta.Post;
 
